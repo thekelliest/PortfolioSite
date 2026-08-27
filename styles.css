@@ -1,15 +1,10 @@
 :root{
     --ink:#0a0a0a;
-    --paper:#F6FFFD;
-    --accent:#ff4d1c;
+    --paper:#f6fffd;
+    --accent:#189184;
     --line:#0a0a0a;
     --muted:#555;
   }
-  /* Seasonal accent + paper overrides — borders and ink stay black for contrast */
-  [data-season="spring"]{ --paper:#f0f2e6; --accent:#5c8a2f; }
-  [data-season="summer"]{ --paper:#f7fff7; --accent:#189184; }
-  [data-season="autumn"]{ --paper:#f2ece0; --accent:#c4451a; }
-  [data-season="winter"]{ --paper:#eef1f2; --accent:#1f5f8a; }
   body{transition:background .4s;}
   *{box-sizing:border-box;margin:0;padding:0;}
   html{scroll-behavior:smooth;}
