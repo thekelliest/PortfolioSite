@@ -68,7 +68,7 @@
     border-right:2px solid var(--line);
   }
   .btn:last-child{border-right:none;}
-  .btn.primary{background:var(--ink);color:var(--paper);}
+  .btn.primary{background:var(--paper);color:var(--ink);}
   .btn.primary:hover{background:var(--accent);}
   .btn.ghost:hover{background:var(--accent);color:var(--paper);}
 
