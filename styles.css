@@ -145,7 +145,7 @@
   .study-metrics.four-col{grid-template-columns:repeat(4,1fr);}
   .study-metrics .metric{text-align:center;padding:28px 16px;border-right:2px solid var(--line);}
   .study-metrics .metric:last-child{border-right:none;}
-  .study-metrics .num2{font-size:1.8rem;font-weight:700;font-family:"JetBrains Mono",monospace;}
+  .study-metrics .num2{font-size:1.8rem;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--accent);}
   .study-metrics .label{font-size:0.78rem;color:var(--muted);margin-top:6px;text-transform:uppercase;}
   .study-image{
     max-width:760px;margin:0 auto 60px;
