@@ -149,7 +149,7 @@
   .study-image{
     max-width:760px;margin:0 auto 60px;
   }
-  .study-image img{width:100%;height:auto;display:block;}
+  .study-image img{width:100%;height:auto;display:block;border:2px solid var(--line);}
   .study-placeholder{
     max-width:760px;margin:0 auto 60px;
     aspect-ratio:16/9;background:#e4e1d6;
