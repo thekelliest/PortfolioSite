@@ -82,11 +82,11 @@
     border-right:2px solid var(--line);
     border-bottom:2px solid var(--line);
     padding:32px;
-    transition:background .1s, color .1s, transform .08s;
+    transition:background .1s, color .1s;
   }
   .case-card:nth-child(2n){border-right:none;}
   .case-card:nth-last-child(-n+2){border-bottom:none;}
-  .case-card:hover{background:var(--accent);color:var(--paper);cursor:pointer;transform:translate(-2px,-2px);}
+  .case-card:hover{background:var(--accent);color:var(--paper);cursor:pointer;}
   .case-card:hover .mono{color:var(--paper);}
   .case-card .num{font-size:0.78rem;margin-bottom:20px;display:block;color:var(--muted);}
   .case-card:hover .num{color:rgba(255,255,255,0.8);}
